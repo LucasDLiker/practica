@@ -329,3 +329,102 @@
 	<time.h>
 	<string.h>
 
+1557597278 source:c:\users\lili\desktop\lukas\practica\primer parcial labo 1 scarafilo 2019\actor.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"pelicula.h"
+	"actor.h"
+
+1557707938 c:\users\lili\desktop\lukas\practica\primer parcial labo 1 scarafilo 2019\pelicula.h
+	"pelicula.h"
+	"fecha.h"
+	"genero.h"
+	"actor.h"
+
+1557597547 c:\users\lili\desktop\lukas\practica\primer parcial labo 1 scarafilo 2019\fecha.h
+	<stdio.h>
+	<stdlib.h>
+
+1557599949 c:\users\lili\desktop\lukas\practica\primer parcial labo 1 scarafilo 2019\genero.h
+	<stdio.h>
+	<stdlib.h>
+
+1557597275 c:\users\lili\desktop\lukas\practica\primer parcial labo 1 scarafilo 2019\actor.h
+
+1557557138 source:c:\users\lili\desktop\lukas\practica\primer parcial labo 1 scarafilo 2019\avramidesjulian1c.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+
+1557596274 source:c:\users\lili\desktop\lukas\practica\primer parcial labo 1 scarafilo 2019\fecha.c
+
+1557587491 source:c:\users\lili\desktop\lukas\practica\primer parcial labo 1 scarafilo 2019\genero.c
+	<stdio.h>
+	<stdlib.h>
+	"genero.h"
+
+1557719944 source:c:\users\lili\desktop\lukas\practica\primer parcial labo 1 scarafilo 2019\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"pelicula.h"
+	"actor.h"
+	"genero.h"
+	"controlfoos.h"
+	"informes.h"
+	"utn.h"
+	"AvramidesJulian1C.h"
+
+1557721228 c:\users\lili\desktop\lukas\practica\primer parcial labo 1 scarafilo 2019\controlfoos.h
+
+1557719458 c:\users\lili\desktop\lukas\practica\primer parcial labo 1 scarafilo 2019\informes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<conio.h>
+	"pelicula.h"
+	"actor.h"
+	"genero.h"
+	"controlfoos.h"
+	"utn.h"
+
+1557719852 c:\users\lili\desktop\lukas\practica\primer parcial labo 1 scarafilo 2019\utn.h
+
+1557497384 c:\users\lili\desktop\lukas\practica\primer parcial labo 1 scarafilo 2019\avramidesjulian1c.h
+
+1557608612 source:c:\users\lili\desktop\lukas\practica\primer parcial labo 1 scarafilo 2019\pelicula.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"pelicula.h"
+	"fecha.h"
+	"utn.h"
+	"AvramidesJulian1C.h"
+	"controlfoos.h"
+	"genero.h"
+
+1557711882 source:c:\users\lili\desktop\lukas\practica\primer parcial labo 1 scarafilo 2019\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
+1561877745 source:c:\users\lili\desktop\lukas\practica\primer parcial labo 1 scarafilo 2019\main.c
+	<stdio.h>
+	<stdlib.h>
+	"fecha.h"
+	"actor.h"
+	"genero.h"
+	"pelicula.h"
+	"avramidesjulian1C.h"
+	"controlfoos.h"
+

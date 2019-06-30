@@ -92,6 +92,22 @@ int main()
             }
             break;
         }
+        case 7:
+            genreWithTheLeastMovies (peliculas, PELISMAX, generos, GENRESMAX);
+        break;
+        case 9:
+        break;
+        case 10:
+        break;
+        case 11:
+        break;
+        case 12:
+        break;
+        case 13:
+        break;
+        case 14:
+        break;
+
         }///CLOSES SWITCH
     }
     while (mainMenuSelection!=5);

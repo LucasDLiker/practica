@@ -1,0 +1,118 @@
+# depslib dependency file v1.0
+1561874837 source:c:\users\lili\desktop\lukas\practica\parcialunolab1\parcialuno\estructurados.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+
+1561884888 c:\users\lili\desktop\lukas\practica\parcialunolab1\parcialuno\estructurauno.h
+	"estructuraDos.h"
+
+1561874837 c:\users\lili\desktop\lukas\practica\parcialunolab1\parcialuno\estructurados.h
+
+1561874837 c:\users\lili\desktop\lukas\practica\parcialunolab1\parcialuno\funcionesgenericas.h
+
+1561874837 c:\users\lili\desktop\lukas\practica\parcialunolab1\parcialuno\menu.h
+
+1561874837 c:\users\lili\desktop\lukas\practica\parcialunolab1\parcialuno\hardcode.h
+
+1561874837 c:\users\lili\desktop\lukas\practica\parcialunolab1\parcialuno\validaciones.h
+
+1561876150 source:c:\users\lili\desktop\lukas\practica\parcialunolab1\parcialuno\estructurauno.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraDos.h"
+	"estructuraUno.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+
+1561874837 source:c:\users\lili\desktop\lukas\practica\parcialunolab1\parcialuno\funcionesgenericas.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+
+1561874837 source:c:\users\lili\desktop\lukas\practica\parcialunolab1\parcialuno\hardcode.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+
+1561886677 source:c:\users\lili\desktop\lukas\practica\parcialunolab1\parcialuno\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+	"informes.h"
+
+1561886651 c:\users\lili\desktop\lukas\practica\parcialunolab1\parcialuno\informes.h
+
+1561874837 source:c:\users\lili\desktop\lukas\practica\parcialunolab1\parcialuno\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+
+1561874837 source:c:\users\lili\desktop\lukas\practica\parcialunolab1\parcialuno\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+	"validaciones.h"
+
+1561884415 source:c:\users\lili\desktop\lukas\practica\parcialunolab1\parcialuno\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+	"informes.h"
+

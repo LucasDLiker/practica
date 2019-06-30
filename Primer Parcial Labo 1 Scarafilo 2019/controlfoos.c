@@ -26,6 +26,7 @@ int mainMenu (void)
         printf("4-Listar\n");
         printf("5-SALIR\n");
         printf("6-HardCoded Data \n\n\n");
+        printf("7-Genero con menos peliculas\n");
         printf("Que es lo que desea hacer? ");
 
         menuChoice= getche();
@@ -66,6 +67,11 @@ int mainMenu (void)
             usersChoice=6;
             break;
         }
+        case '7':
+        {
+            usersChoice=7;
+            break;
+        }
         default :
         {
             break;
@@ -74,7 +80,7 @@ int mainMenu (void)
         }
 
     }
-    while (usersChoice<1 || usersChoice>6);
+    while (usersChoice<1 || usersChoice>10);
 
     return usersChoice;
 }

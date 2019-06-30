@@ -1,3 +1,0 @@
-void peliculaMasNueva (sPeliculas* arrayPeliculas, int cantidadPeliculas);
-void peliculaMasVieja (sPeliculas* arrayPeliculas, int cantidadPeliculas);
-void peliculasEstrenadasEnMayo (sPeliculas* arrayPeliculas, int cantidadPeliculas);
