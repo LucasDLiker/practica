@@ -23,6 +23,13 @@ typedef struct
 
 }sPeliculas;
 
+typedef struct
+{
+    int id;
+    char genero[21];
+    int isEmpty;
+}
+
 #endif // arrayPeliculas
 
 

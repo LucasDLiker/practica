@@ -114,15 +114,12 @@ int encontrarPeliculaPorID(sPeliculas* arrayPeliculas, int capacidad, int id)
 void mostrarListaGeneros(sGeneros* arrayGeneros, int cantidad)
 {
     int i;
-    printf("=====================================================================\n"
-           "||                      Listado de Generos                         ||\n"
-           "=====================================================================\n");
+    printf("||                      Listado de Generos                         ||\n");
     for(i=0; i<cantidad; i++)
     {
         if(arrayGeneros[i].datoOcupado == OCUPADO)
         {
             printf(" %4d | %20s                      \n",arrayGeneros[i].id, arrayGeneros[i].genero);
-            //printf(" %4d | %50s | %d   | %2d |                \n", listaPeliculas[i].id, listaPeliculas[i].titulo, listaPeliculas[i].genero, /*relacion*/, listaPeliculas[i].actor);/*listaPeliculas[i].fecha*/
         }
 
 
@@ -148,9 +145,9 @@ int agregarPelicula(sPeliculas* arrayPeliculas, int capacidad, sActores* arrayAc
     {
         if(index != -1)
         {
-            /*----------------ID---------------------------*/
+            //ID
             arrayPeliculas[index].id=index+1000;
-            /*---------------TITULO------------------------*/
+            //TITULO
             getString("Ingrese el titulo de la pelicula: ", buffer);
             while(strlen(buffer)>51)
             {
@@ -167,22 +164,22 @@ int agregarPelicula(sPeliculas* arrayPeliculas, int capacidad, sActores* arrayAc
                 }
             }
             strcpy(arrayPeliculas[index].titulo, auxTitulo);
-            /*------------------GENERO------------------------*/
+            //GENERO
             mostrarListaGeneros(arrayGeneros, LIMITE);
             auxGenero = getValidInt("Ingrese el ID del genero: ", "Solamente puede ingresar numeros.", 0, 5);
             arrayPeliculas[index].genero = auxGenero;
-            /*-----------------ACTOR-------------------------*/
+            //ACTOR
             mostrarListaActores(arrayActores, LIMITE);
             auxActor = getValidInt("Ingrese el ID del actor: ", "Solamente puede ingresar numeros.", 0, 10);
             arrayPeliculas[index].actor = auxActor;
-            /*-----------------FECHA-------------------------*/
+            //FECHA
             auxDia = getValidInt("Ingrese el dia del estreno ", "Solamente puede ingresar numeros.", 0, 31);
             arrayPeliculas[index].dia = auxDia;
             auxMes = getValidInt("Ingrese el mes del estreno ", "Solamente puede ingresar numeros.", 0, 12);
             arrayPeliculas[index].mes = auxMes;
             auxAnio = getValidInt("Ingrese el anio del estreno ", "Solamente puede ingresar numeros.", 1989, 2019);
             arrayPeliculas[index].anio = auxAnio;
-            /*------------------ESPACIO-----------------------*/
+            //ESPACIO
             arrayPeliculas[index].datoOcupado = OCUPADO;
 
             retorno = 0;
@@ -415,7 +412,7 @@ void modificarPelicula(sPeliculas* arrayPeliculas, int capacidad, sActores* arra
             strcpy(arrayPeliculas[idPelicula].titulo, auxTitulo);
             do
             {
-                confirmacion = getChar("Confirma la modificacion? ");
+                confirmacion = getChar("Confirma la modificacion? S/N ");
                 switch(confirmacion)
                 {
                 case 's':

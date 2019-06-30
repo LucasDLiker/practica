@@ -78,16 +78,10 @@ int main()
             lugarLibre=buscarLibrePeliculas(arrayPeliculas, LIMITE);
             if (lugarLibre!=-1)
             {
-//                opcion = subMenuAltas();
-//                switch(opcion)
-//                {
-//                case 1:
+
                 agregarPelicula(arrayPeliculas, LIMITE, arrayActores, arrayGeneros);
                 break;
-//                case 2:
-//                    agregarActor(arrayActores, LIMITE);
-//                    break;
-//                }
+
             }
             else
             {
@@ -109,7 +103,7 @@ int main()
                     {
                         ordenarPeliculasPorFecha(arrayPeliculas, LIMITE);
                         mostrarTodasLasPeliculas(arrayPeliculas, LIMITE, arrayActores, LIMITE,arrayGeneros, LIMITE);
-                        //mostrarTodasLasPeliculas(arrayPeliculas, LIMITE,arrayActores,LIMITE,arrayGeneros,LIMITE);
+
                     }
                     else
                     {
@@ -117,20 +111,9 @@ int main()
                     }
                     break;
                 case 2:
-//                    if (flagDos == 0)
-//                    {
-//                        mostrarListaActores(arrayActores, LIMITE);
-//                    }
-//                    else
-//                    {
-//                        printf("No hay datos cargados.\n");
-//                    }
                     ordenarActoresPorNacionalidad(arrayActores, LIMITE);
                     mostrarListaActores(arrayActores, LIMITE);
-
-
-
-                    break;
+                break;
                 }
             }
             else
@@ -145,10 +128,6 @@ int main()
             flagDos = datoCargadoActores(arrayActores, LIMITE);
             if (flagUno == 0 || flagDos == 0)
             {
-//                opcion = subMenuBaja();
-//                switch(opcion)
-//                {
-//                case 1:
                 if (flagUno == 0)
                 {
                     mostrarTodasLasPeliculas(arrayPeliculas, LIMITE, arrayActores, LIMITE,arrayGeneros, LIMITE);
@@ -161,18 +140,6 @@ int main()
                     printf("No hay datos cargados.\n");
                 }
                 break;
-//                case 2:
-//                    if (flagDos == 0)
-//                    {
-//                        mostrarListaActores(arrayActores, LIMITE);
-//                        eliminarActor(arrayActores, LIMITE);
-//                    }
-//                    else
-//                    {
-//                        printf("No hay datos cargados.\n");
-//                    }
-//                    break;
-//                }
             }
             else
             {
@@ -186,10 +153,7 @@ int main()
             flagDos = datoCargadoActores(arrayActores, LIMITE);
             if (flagUno == 0 || flagDos == 0)
             {
-//                opcion = subMenuModificar();
-//                switch(opcion)
-//                {
-//                case 1:
+
                 if (flagUno == 0)
                 {
                     mostrarTodasLasPeliculas(arrayPeliculas, LIMITE, arrayActores, LIMITE,arrayGeneros, LIMITE);
@@ -218,34 +182,7 @@ int main()
                     printf("No hay datos cargados.\n");
                 }
                 break;
-//                case 2:
-//                    if (flagDos == 0)
-//                    {
-//                        mostrarListaActores(arrayActores, LIMITE);
-//                        modificarActores(arrayActores, LIMITE);
-//                        do
-//                        {
-//                            confirmacion = getChar("Desea seguir modificando datos? S/N ");
-//                            switch(confirmacion)
-//                            {
-//                            case 's':
-//                                modificarActores(arrayActores, LIMITE);
-//                                break;
-//                            case 'n':
-//                                system("cls");
-//                                break;
-//                            default:
-//                                printf("Ingrese una opcion valida.\n");
-//                                break;
-//                            }
-//                        }
-//                        while (confirmacion != 'n');
-//                    }
-//                    else
-//                    {
-//                        printf("No hay datos cargados.\n");
-//                    }
-//                }
+
             }
 
             else
@@ -256,7 +193,6 @@ int main()
             system("cls");
             break;
         case 6:
-            //printf("APROBAME PLS\n");
             system("pause");
             system("cls");
             break;
