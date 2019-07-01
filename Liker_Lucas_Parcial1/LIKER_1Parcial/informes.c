@@ -10,7 +10,7 @@
 #include "hardcode.h"
 #include "validaciones.h"
 #include "informes.h"
-#define MAXIMOPELICULAS 30
+#define MAXIMOPELICULAS 1000
 void peliculaMasNueva (sPeliculas* arrayPeliculas, int cantidadPeliculas)
 {
     int i;
@@ -133,11 +133,10 @@ void masPeliculasPorGenero (sPeliculas* arrayPeliculas, int cantidadPeliculas, s
 
 }
 
-int menosPeliculasPorGenero (sPeliculas* arrayPeliculas, int cantidadPeliculas, sGeneros* arrayGeneros, int cantidadGeneros)
+void menosPeliculasPorGenero (sPeliculas* arrayPeliculas, int cantidadPeliculas, sGeneros* arrayGeneros, int cantidadGeneros)
 {
     int menosApariciones=1000;
     int peliculasPorGenero=0;
-    int rtn = -1;
 
     if (arrayGeneros!= NULL && arrayGeneros >0 && arrayPeliculas!=NULL && arrayPeliculas>0)
     {
@@ -154,15 +153,12 @@ int menosPeliculasPorGenero (sPeliculas* arrayPeliculas, int cantidadPeliculas, 
                     }
                 }
             }///FOR J
-
             if (peliculasPorGenero<menosApariciones)
             {
                 menosApariciones=peliculasPorGenero;
             }
         }///FOR I
-
         printf("\nGenero con menos Peliculas: ");
-
         for (int i=0; i<cantidadGeneros; i++)
         {
             peliculasPorGenero=0;
@@ -179,7 +175,6 @@ int menosPeliculasPorGenero (sPeliculas* arrayPeliculas, int cantidadPeliculas, 
             if (peliculasPorGenero==menosApariciones)
             {
                 printf ("\t %s %d", arrayGeneros[i].genero, menosApariciones);
-                rtn=0;
             }
         }
     }
@@ -188,10 +183,6 @@ int menosPeliculasPorGenero (sPeliculas* arrayPeliculas, int cantidadPeliculas, 
         printf("No hay informacion que mostrar");
     }
     printf ("\n\n");
-    system("pause");
-
-    return rtn;
-
 }
 
 
@@ -232,38 +223,19 @@ void peliculasPorGenero (sPeliculas* arrayPeliculas, int cantidadPeliculas, sGen
             }
             printf("\n=================================================\n");
         }
-
     }
 }
-int cantidadPeliculasPorGenero (sPeliculas* arrayPeliculas, int cantidadPeliculas, sGeneros* arrayGeneros, int cantidadGeneros)
+void cantidadPeliculasPorGenero (sPeliculas* arrayPeliculas, int cantidadPeliculas, sGeneros* arrayGeneros, int cantidadGeneros)
 {
-    int menosApariciones=1000;
+    int auxCantidad=-1;
     int peliculasPorGenero=0;
-    int rtn = -1;
+   // int rtn = -1;
 
     if (arrayGeneros!= NULL && arrayGeneros >0 && arrayPeliculas!=NULL && arrayPeliculas>0)
     {
-        for (int i=0; i<cantidadGeneros; i++)
-        {
-            peliculasPorGenero=0;
-            for (int j=0; j <MAXIMOPELICULAS; j++)
-            {
-                if (arrayGeneros[i].datoOcupado==0)
-                {
-                    if (arrayGeneros[i].id==arrayPeliculas[j].genero && arrayPeliculas[j].datoOcupado==0)
-                    {
-                        peliculasPorGenero++;
-                    }
-                }
-            }///FOR J
-
-            if (peliculasPorGenero<menosApariciones)
-            {
-                menosApariciones=peliculasPorGenero;
-            }
-        }///FOR I
-
-        printf("\nGenero con menos Peliculas: ");
+        printf("\n===================================");
+        printf("\nCantidad de peliculas por genero   ");
+        printf("\n===================================");
 
         for (int i=0; i<cantidadGeneros; i++)
         {
@@ -278,10 +250,11 @@ int cantidadPeliculasPorGenero (sPeliculas* arrayPeliculas, int cantidadPelicula
                     }
                 }
             }
-            if (peliculasPorGenero!=menosApariciones)
+            if (peliculasPorGenero>auxCantidad)
             {
-                printf ("\t %s %d", arrayGeneros[i].genero, peliculasPorGenero);
-                rtn=0;
+                //printf("\n                                   ");
+                printf ("\n %2s %2d                          \n", arrayGeneros[i].genero, peliculasPorGenero);
+                printf("\n===================================\n");
             }
         }
     }
@@ -289,10 +262,5 @@ int cantidadPeliculasPorGenero (sPeliculas* arrayPeliculas, int cantidadPelicula
     {
         printf("No hay informacion que mostrar");
     }
-    printf ("\n\n");
-    system("pause");
-
-    return rtn;
-
 }
 

@@ -213,7 +213,7 @@ int main()
                     peliculasPorGenero(arrayPeliculas,LIMITE,arrayGeneros,LIMITE);
                     break;
                 case 4:
-                    cantidadPeliculasPorGenero(arrayPeliculas, LIMITE, arrayGeneros, LIMITE);
+                    cantidadPeliculasPorGenero(arrayPeliculas, LIMITE, arrayGeneros, 5);
                     break;
                 case 5:
                     menosPeliculasPorGenero ( arrayPeliculas, LIMITE, arrayGeneros, 5);

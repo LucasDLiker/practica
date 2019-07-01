@@ -116,3 +116,120 @@
 	"validaciones.h"
 	"informes.h"
 
+1561938489 source:c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\estructurados.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+
+1561938489 c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\estructurauno.h
+	"estructuraDos.h"
+
+1561940504 c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\estructurados.h
+
+1561938489 c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\funcionesgenericas.h
+
+1561938489 c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\menu.h
+
+1561938489 c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\hardcode.h
+
+1561938489 c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\validaciones.h
+
+1561938489 source:c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\estructurauno.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraDos.h"
+	"estructuraUno.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+
+1561938489 source:c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\funcionesgenericas.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+
+1561938489 source:c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\hardcode.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+
+1561940669 source:c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+	"informes.h"
+
+1561940504 c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\informes.h
+
+1561938705 source:c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+	"informes.h"
+
+1561938489 source:c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+
+1561938489 source:c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"estructuraUno.h"
+	"estructuraDos.h"
+	"funcionesGenericas.h"
+	"menu.h"
+	"hardcode.h"
+	"validaciones.h"
+	"validaciones.h"
+
