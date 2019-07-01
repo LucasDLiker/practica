@@ -229,13 +229,12 @@ void cantidadPeliculasPorGenero (sPeliculas* arrayPeliculas, int cantidadPelicul
 {
     int auxCantidad=-1;
     int peliculasPorGenero=0;
-   // int rtn = -1;
 
     if (arrayGeneros!= NULL && arrayGeneros >0 && arrayPeliculas!=NULL && arrayPeliculas>0)
     {
-        printf("\n===================================");
-        printf("\nCantidad de peliculas por genero   ");
-        printf("\n===================================");
+        printf("\n===================================||");
+        printf("\nCantidad de peliculas por genero   ||");
+        printf("\n===================================||\n");
 
         for (int i=0; i<cantidadGeneros; i++)
         {
@@ -252,9 +251,8 @@ void cantidadPeliculasPorGenero (sPeliculas* arrayPeliculas, int cantidadPelicul
             }
             if (peliculasPorGenero>auxCantidad)
             {
-                //printf("\n                                   ");
-                printf ("\n %2s %2d                          \n", arrayGeneros[i].genero, peliculasPorGenero);
-                printf("\n===================================\n");
+                printf (" %15s %4d              ||\n", arrayGeneros[i].genero, peliculasPorGenero);
+                printf("===================================||\n");
             }
         }
     }

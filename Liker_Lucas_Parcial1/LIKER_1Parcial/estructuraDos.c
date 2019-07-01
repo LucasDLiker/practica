@@ -369,3 +369,10 @@ void modificarActores(sActores* arrayActores, int capacidad)
 
     }
 }
+
+/** ///////////////ARRAY DIRECTORES //////////////////**/
+
+/*int inicializarEstadoDirectores (sDirectores* arrayDirectores, int capacidad)
+{
+
+}*/

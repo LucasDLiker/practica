@@ -116,7 +116,7 @@
 	"validaciones.h"
 	"informes.h"
 
-1561938489 source:c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\estructurados.c
+1561962531 source:c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\estructurados.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
@@ -132,7 +132,7 @@
 1561938489 c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\estructurauno.h
 	"estructuraDos.h"
 
-1561940504 c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\estructurados.h
+1561962531 c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\estructurados.h
 
 1561938489 c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\funcionesgenericas.h
 
@@ -176,7 +176,7 @@
 	"hardcode.h"
 	"validaciones.h"
 
-1561940669 source:c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\informes.c
+1561963165 source:c:\users\capitan hostias\desktop\practica\liker_lucas_parcial1\liker_1parcial\informes.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>

@@ -10,6 +10,16 @@ typedef struct
     int datoOcupado;
 } sActores;
 
+typedef struct
+{
+    int id;
+    char nombre[51];
+    float sueldo;
+    int anio;
+    int mes;
+    int dia;
+
+}sDirectores;
 
 int inicializarEstadoActores(sActores* arrayActores, int capacidad);
 int buscarLibreActores(sActores* arrayActores, int capacidad);
@@ -21,5 +31,9 @@ void mostrarActor(sActores* arrayActores, int lugar);
 void mostrarListaActores(sActores* arrayActores, int cantidad);
 int eliminarActor(sActores* arrayActores, int capacidad);
 void modificarActores(sActores* arrayActores, int capacidad);
+
+//array de directores
+
+int inicializarEstadoDirectores (sDirectores* arrayDirectores, int capacidad);
 
 #endif // ESTRUCTURADOS_H_INCLUDED
