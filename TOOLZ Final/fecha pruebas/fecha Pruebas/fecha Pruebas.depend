@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1561879438 source:c:\users\who\desktop\puntero  a funcion implementado\toolz final\fecha pruebas\fecha pruebas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"linkedlist.h"
+
+1561867076 c:\users\who\desktop\puntero  a funcion implementado\toolz final\fecha pruebas\fecha pruebas\linkedlist.h
+
+1561867116 source:c:\users\who\desktop\puntero  a funcion implementado\toolz final\fecha pruebas\fecha pruebas\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+

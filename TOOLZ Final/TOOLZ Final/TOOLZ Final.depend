@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1561905889 source:c:\users\who\desktop\puntero  a funcion implementado\toolz final\toolz final\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"controller.h"
+	"utn.h"
+
+1561904674 c:\users\who\desktop\puntero  a funcion implementado\toolz final\toolz final\linkedlist.h
+
+1561905953 c:\users\who\desktop\puntero  a funcion implementado\toolz final\toolz final\employee.h
+
+1561839565 c:\users\who\desktop\puntero  a funcion implementado\toolz final\toolz final\parser.h
+
+1561905916 c:\users\who\desktop\puntero  a funcion implementado\toolz final\toolz final\controller.h
+
+1561839673 c:\users\who\desktop\puntero  a funcion implementado\toolz final\toolz final\utn.h
+
+1561906483 source:c:\users\who\desktop\puntero  a funcion implementado\toolz final\toolz final\employee.c
+	"Employee.h"
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"utn.h"
+
+1561906665 source:c:\users\who\desktop\puntero  a funcion implementado\toolz final\toolz final\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"controller.h"
+	"employee.h"
+
+1561839542 source:c:\users\who\desktop\puntero  a funcion implementado\toolz final\toolz final\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1561839587 source:c:\users\who\desktop\puntero  a funcion implementado\toolz final\toolz final\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<time.h>
+
+1561905402 source:c:\users\who\desktop\puntero  a funcion implementado\toolz final\toolz final\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"utn.h"
+
