@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "Fantasma.h"
@@ -161,4 +161,4 @@ int funcion1(void* elemento,float* floater)
         retorno=1;
     }
     return retorno;
-}
+}*/

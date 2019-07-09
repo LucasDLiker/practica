@@ -13,7 +13,7 @@ int main()
         {
             ll_map(listaEmpleados,calculaSueldo);
             controller_writeText("sueldos.csv",listaEmpleados);
-            printf("ESTA TODO DE FIESTA\n");
+            printf("Proceso Terminado. \n");
         }
     }
     return 0;

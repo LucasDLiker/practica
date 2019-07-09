@@ -4,6 +4,7 @@
 #include "Ventas.h"
 #include "Parser.h"
 #include "Controller.h"
+//#include "Fantasma.h"
 int main()
 {
     LinkedList* listaVentas = ll_newLinkedList();
@@ -29,7 +30,7 @@ int main()
             ll_countFloat(listaVentas,contadorImporte,&totalImporte);
             promedio2 = totalImporte/totalEntregas;
             controller_writeText("informes.txt",listaVentas,totalEntregas,totalP,totalG,totalR,totalBultos,promedio1,promedio2);
-            printf("TODO DE FIESTA\n");
+            printf("Adios.\n");
         }
     }
     return 0;

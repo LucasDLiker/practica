@@ -119,3 +119,69 @@
 
 1562266928 c:\users\lucas\desktop\modelosprogramacion\modelo1completo\ventas.h
 
+1562628111 source:c:\users\capitan hostias\desktop\practica\parcial1-modelo1\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Ventas.h"
+	"Controller.h"
+	"Parser.h"
+
+1562628111 c:\users\capitan hostias\desktop\practica\parcial1-modelo1\linkedlist.h
+
+1562628111 c:\users\capitan hostias\desktop\practica\parcial1-modelo1\ventas.h
+
+1562628111 c:\users\capitan hostias\desktop\practica\parcial1-modelo1\controller.h
+	<stdio.h>
+	<stdlib.h>
+	"Ventas.h"
+
+1562628111 c:\users\capitan hostias\desktop\practica\parcial1-modelo1\parser.h
+
+1562628111 source:c:\users\capitan hostias\desktop\practica\parcial1-modelo1\fantasma.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Fantasma.h"
+
+1562628111 c:\users\capitan hostias\desktop\practica\parcial1-modelo1\fantasma.h
+	<stdio.h>
+	<stdlib.h>
+
+1562628111 source:c:\users\capitan hostias\desktop\practica\parcial1-modelo1\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1562634592 source:c:\users\capitan hostias\desktop\practica\parcial1-modelo1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Ventas.h"
+	"Parser.h"
+	"Controller.h"
+
+1562628111 source:c:\users\capitan hostias\desktop\practica\parcial1-modelo1\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"LinkedList.h"
+	"Ventas.h"
+	"Parser.h"
+
+1562628111 c:\users\capitan hostias\desktop\practica\parcial1-modelo1\utn.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1562628111 source:c:\users\capitan hostias\desktop\practica\parcial1-modelo1\utn.c
+	"utn.h"
+
+1562628111 source:c:\users\capitan hostias\desktop\practica\parcial1-modelo1\ventas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Ventas.h"
+

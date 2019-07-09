@@ -65,3 +65,59 @@
 1561997050 source:c:\users\lucas\desktop\modelosprogramacion\modelo2\utn.c
 	"utn.h"
 
+1562654034 source:c:\users\capitan hostias\desktop\practica\parcial2-modelo2\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Empleado.h"
+	"Controller.h"
+	"Parser.h"
+
+1562628028 c:\users\capitan hostias\desktop\practica\parcial2-modelo2\linkedlist.h
+
+1562628028 c:\users\capitan hostias\desktop\practica\parcial2-modelo2\empleado.h
+
+1562628028 c:\users\capitan hostias\desktop\practica\parcial2-modelo2\controller.h
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+
+1562628028 c:\users\capitan hostias\desktop\practica\parcial2-modelo2\parser.h
+
+1562628028 source:c:\users\capitan hostias\desktop\practica\parcial2-modelo2\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1562634095 source:c:\users\capitan hostias\desktop\practica\parcial2-modelo2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Empleado.h"
+	"LinkedList.h"
+	"Parser.h"
+	"Controller.h"
+
+1562628028 source:c:\users\capitan hostias\desktop\practica\parcial2-modelo2\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"utn.h"
+	"LinkedList.h"
+	"Empleado.h"
+	"Parser.h"
+
+1562628028 c:\users\capitan hostias\desktop\practica\parcial2-modelo2\utn.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1562628028 source:c:\users\capitan hostias\desktop\practica\parcial2-modelo2\utn.c
+	"utn.h"
+
+1562634069 source:c:\users\capitan hostias\desktop\practica\parcial2-modelo2\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Empleado.h"
+

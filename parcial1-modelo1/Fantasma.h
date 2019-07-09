@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 
 #ifndef fantasma_H_INCLUDED
@@ -28,4 +28,4 @@ int setImporte(Fantasma* this,float importe);
 int funcion1(void* elemento,float* floater);
 int getCuit(Fantasma* this,char* cuit);
 int setCuit(Fantasma* this,char* cuit);
-#endif // fantasma_H_INCLUDED
+#endif // fantasma_H_INCLUDED*/

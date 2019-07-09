@@ -48,7 +48,9 @@ int controller_writeText(char* path,LinkedList* this)
                     empleado = (Empleado*) elemento;
                     if(getId(empleado,&id)&&getNombre(empleado,nombre)&&getHoras(empleado,&horas)&&getSueldo(empleado,&sueldo))
                     {
+                        printf("%d,%s,%d,%.2f\n",id,nombre,horas,sueldo);
                         fprintf(pFile,"%d,%s,%d,%.2f\n",id,nombre,horas,sueldo);
+
                     }
                 }
            }

@@ -167,3 +167,59 @@
 	<ctype.h>
 	"UTN_INPUT.h"
 
+1562629601 source:c:\users\capitan hostias\desktop\practica\parcial2-modelo3\parcial2\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Dominio.h"
+	"parser.h"
+	"UTN_INPUT.h"
+
+1562629601 c:\users\capitan hostias\desktop\practica\parcial2-modelo3\parcial2\linkedlist.h
+
+1562629601 c:\users\capitan hostias\desktop\practica\parcial2-modelo3\parcial2\dominio.h
+
+1562629601 c:\users\capitan hostias\desktop\practica\parcial2-modelo3\parcial2\parser.h
+
+1562629601 c:\users\capitan hostias\desktop\practica\parcial2-modelo3\parcial2\utn_input.h
+
+1562629601 source:c:\users\capitan hostias\desktop\practica\parcial2-modelo3\parcial2\dominio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Dominio.h"
+	<ctype.h>
+	"UTN_INPUT.h"
+
+1562629601 source:c:\users\capitan hostias\desktop\practica\parcial2-modelo3\parcial2\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1562629601 source:c:\users\capitan hostias\desktop\practica\parcial2-modelo3\parcial2\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Dominio.h"
+	"parser.h"
+
+1562629601 source:c:\users\capitan hostias\desktop\practica\parcial2-modelo3\parcial2\utn_input.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"UTN_INPUT.h"
+
+1562634222 source:c:\users\capitan hostias\desktop\practica\parcial2-modelo3\parcial2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Dominio.h"
+	"UTN_INPUT.h"
+
+1562629601 c:\users\capitan hostias\desktop\practica\parcial2-modelo3\parcial2\controller.h
+
