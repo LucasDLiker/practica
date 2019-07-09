@@ -1,0 +1,223 @@
+# depslib dependency file v1.0
+1561388239 source:d:\matwijiszyn\segundoparcial2019\segundoparcial\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"parser.h"
+	"menu.h"
+	"validaciones.h"
+
+1561343475 d:\matwijiszyn\segundoparcial2019\segundoparcial\linkedlist.h
+
+1561388312 d:\matwijiszyn\segundoparcial2019\segundoparcial\controller.h
+
+1561387749 d:\matwijiszyn\segundoparcial2019\segundoparcial\employee.h
+
+1561379456 d:\matwijiszyn\segundoparcial2019\segundoparcial\parser.h
+
+1561343475 d:\matwijiszyn\segundoparcial2019\segundoparcial\menu.h
+
+1561343475 d:\matwijiszyn\segundoparcial2019\segundoparcial\validaciones.h
+
+1561387732 source:d:\matwijiszyn\segundoparcial2019\segundoparcial\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"menu.h"
+
+1561343475 source:d:\matwijiszyn\segundoparcial2019\segundoparcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561388291 source:d:\matwijiszyn\segundoparcial2019\segundoparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"menu.h"
+	"validaciones.h"
+
+1561388343 source:d:\matwijiszyn\segundoparcial2019\segundoparcial\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"menu.h"
+	"validaciones.h"
+
+1561343475 source:d:\matwijiszyn\segundoparcial2019\segundoparcial\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+
+1561380614 source:d:\matwijiszyn\segundoparcial2019\segundoparcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"menu.h"
+
+1562617684 source:c:\users\peps\desktop\segundoparcial-master\segundoparcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561388573 c:\users\peps\desktop\segundoparcial-master\segundoparcial\linkedlist.h
+
+1562617853 source:c:\users\peps\desktop\segundoparcial-master\segundoparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"menu.h"
+	"validaciones.h"
+
+1562616134 c:\users\peps\desktop\segundoparcial-master\segundoparcial\controller.h
+
+1562616260 c:\users\peps\desktop\segundoparcial-master\segundoparcial\employee.h
+
+1561388573 c:\users\peps\desktop\segundoparcial-master\segundoparcial\menu.h
+
+1561388573 c:\users\peps\desktop\segundoparcial-master\segundoparcial\validaciones.h
+
+1562613485 source:c:\users\peps\desktop\segundoparcial-master\segundoparcial\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"menu.h"
+	"validaciones.h"
+
+1561388573 source:c:\users\peps\desktop\segundoparcial-master\segundoparcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"menu.h"
+
+1561388573 source:c:\users\peps\desktop\segundoparcial-master\segundoparcial\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+
+1562617228 source:c:\users\peps\desktop\segundoparcial-master\segundoparcial\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"menu.h"
+
+1562616414 source:c:\users\peps\desktop\segundoparcial-master\segundoparcial\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"parser.h"
+	"menu.h"
+	"validaciones.h"
+
+1561388573 c:\users\peps\desktop\segundoparcial-master\segundoparcial\parser.h
+
+1562626409 source:c:\users\capitan hostias\desktop\practica\segundoparcial\segundoparcial\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"parser.h"
+	"menu.h"
+	"validaciones.h"
+
+1562626409 c:\users\capitan hostias\desktop\practica\segundoparcial\segundoparcial\linkedlist.h
+
+1562626409 c:\users\capitan hostias\desktop\practica\segundoparcial\segundoparcial\controller.h
+
+1562626409 c:\users\capitan hostias\desktop\practica\segundoparcial\segundoparcial\employee.h
+
+1562626409 c:\users\capitan hostias\desktop\practica\segundoparcial\segundoparcial\parser.h
+
+1562626409 c:\users\capitan hostias\desktop\practica\segundoparcial\segundoparcial\menu.h
+
+1562626409 c:\users\capitan hostias\desktop\practica\segundoparcial\segundoparcial\validaciones.h
+
+1562626409 source:c:\users\capitan hostias\desktop\practica\segundoparcial\segundoparcial\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"menu.h"
+
+1562626409 source:c:\users\capitan hostias\desktop\practica\segundoparcial\segundoparcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1562626409 source:c:\users\capitan hostias\desktop\practica\segundoparcial\segundoparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"menu.h"
+	"validaciones.h"
+
+1562626409 source:c:\users\capitan hostias\desktop\practica\segundoparcial\segundoparcial\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"menu.h"
+	"validaciones.h"
+
+1562626409 source:c:\users\capitan hostias\desktop\practica\segundoparcial\segundoparcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"menu.h"
+
+1562626409 source:c:\users\capitan hostias\desktop\practica\segundoparcial\segundoparcial\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+
