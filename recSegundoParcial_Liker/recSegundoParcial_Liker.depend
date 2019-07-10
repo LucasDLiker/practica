@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1562760324 source:d:\liker lucas\recsegundoparcial_liker\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1562760324 d:\liker lucas\recsegundoparcial_liker\linkedlist.h
+
+1562763851 source:d:\liker lucas\recsegundoparcial_liker\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"pelicula.h"
+	"utn.h"
+
+1562764411 source:d:\liker lucas\recsegundoparcial_liker\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"pelicula.h"
+	"parser.h"
+	"utn.h"
+
+1562762510 source:d:\liker lucas\recsegundoparcial_liker\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"pelicula.h"
+	"parser.h"
+
+1562762932 d:\liker lucas\recsegundoparcial_liker\pelicula.h
+
+1562760821 d:\liker lucas\recsegundoparcial_liker\parser.h
+
+1562762465 source:d:\liker lucas\recsegundoparcial_liker\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1562762465 d:\liker lucas\recsegundoparcial_liker\utn.h
+
+1562762859 source:d:\liker lucas\recsegundoparcial_liker\pelicula.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pelicula.h"
+	<ctype.h>
+	"utn.h"
+
+1562764681 d:\liker lucas\recsegundoparcial_liker\controller.h
+
